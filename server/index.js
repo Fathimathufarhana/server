@@ -10,7 +10,7 @@ const app = express();
 
 
 app.use(cors());
-app.use(morgan("common"))
+app.use(morgan("common")) //to upload files
 app.use(express.json())// parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
 
